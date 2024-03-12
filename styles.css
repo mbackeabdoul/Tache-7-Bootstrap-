@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./images/background1.jpeg);
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.navbar-nav{
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    gap: 20px;
+    
+}
+.navbar-nav a{
+    color:#fff;
+}
+
+/*  */
+
+.footer{
+    background-color: #311919;
+    color: #fff;
+}
+
+.border--{
+    border: 1px solid #F6E1C5;
+}
+.card-home-2{
+    background: #A5342BB0;
+
+}
+/*  */
+.backk{
+    background: #A5342BB0;
+
+}
+
+.hrrr{
+    border-bottom: 2px solid rgb(140, 137, 137);
+}
+
+@media screen and (max-width:700px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* home */
+    .home-1{
+        position: relative;
+        z-index: -100;
+    }
+
+    .card-home{
+        position: absolute;
+        margin-top: 20%;
+        font-size: 10px;
+        /* width: 100%; */
+        left: 5%;
+    }
+
+    .card-home-2{
+        margin-top: 20%;
+
+    }
+
+    /* about */
+
+    .about-1{
+        position: relative;
+    }
+    .card-about{
+        position: absolute;
+        font-size: 10px;
+        margin-top: 15%;
+        width: 100%;
+    }
+    /* products */
+
+    .products-1{
+        position: relative;
+    }
+    .card2-products{
+        position:absolute;
+        left: 26%;
+        width: 50%;
+        height: 20%;
+        /* padding: 3%; */
+        margin-top: 8%;
+        /* margin-left: 5%; */
+        font-size: 10px;
+    }
+
+    .card1-products{
+        position: absolute;
+        right: 1%;
+    }
+    
+    .products-2{
+        position: relative;
+    }
+
+    .card3-products{
+        position: absolute;
+        left: 1%;
+    }
+
+    .card4-products{
+
+        position:absolute;
+        right: 2%;
+        font-size: 10px;
+        /* width: 50%;
+        height: 20%; */
+        padding: 1px;
+        /* padding: 3%; */
+        /* margin-top: 8%; */
+    }
+
+    .products-3{
+        position: relative;
+    }
+
+    .card5-products{
+    position: absolute;
+    right: 2%;
+    }
+
+    .card6-products{
+        position:absolute;
+        left:35%;
+        font-size: 10px;
+        }
+        /*  */
+        .store-{
+            position: relative;
+        }
+
+        .card-store{
+            position: absolute;
+            font-size: 9px;
+            font-weight: 700;
+            /* height: 80px; */
+            width: 85%;
+            padding: 2%;
+            margin-top: 8%;
+            
+        }
+}
